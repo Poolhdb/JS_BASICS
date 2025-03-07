@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Sample 2</title>
+</head>
+<body>
+    <h1>Text Concatenator</h1>
+    <table>
+        <tr>
+            <td>
+                <label for="num1">First Name:</label>
+            </td>
+            <td>
+                <input type="text" name="num1" id="num1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="num2">Middle Name:</label>
+            </td>
+            <td>
+                <input type="text" name="num2" id="num2">
+            </td>
+        </tr>
+        <tr>
+            <tr>
+                <td>
+                    <label for="num3">Last Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="num3" id="num3">
+                </td>
+            </tr>
+            <tr>
+            <td></td>
+            <td>
+                <button onclick="concatenate()">Generate Full Name</button>
+                <button onclick="clearEntries()">Clear Entries</button>
+            </td>
+        </tr>
+    </table>
+
+    <p>Full Name:</p>
+    <span style="font-weight: bold;" id="sum"></span>
+
+    <script src="main.js"></script>
+</body>
+</html>
